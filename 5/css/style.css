@@ -85,7 +85,7 @@ a{
 }
 
 .kabinet-icon{
-    background-image: url('/img/keyboard_tab.svg');
+    background-image: url('../img/keyboard_tab.svg');
     background-position: left center;
     width: 21px;
     height: 12px;
