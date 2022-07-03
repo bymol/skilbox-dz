@@ -1,0 +1,103 @@
+@font-face { 
+    font-family: "Muller";
+    src: url('../fonts/MullerBold.woff2') format('woff2'),
+    url('../fonts/MullerBold.woff') format('woff');
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face { 
+    font-family: "Muller";
+    src: url('../fonts/MullerLight.woff2') format('woff2'),
+    url('../fonts/MullerLight.woff') format('woff');
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face { 
+    font-family: "Muller";
+    src: url('../fonts/MullerMedium.woff2') format('woff2'),
+    url('../fonts/MullerMedium.woff') format('woff');
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face { 
+    font-family: "Muller";
+    src: url('../fonts/MullerRegular.woff2') format('woff2'),
+    url('../fonts/MullerRegular.woff') format('woff');
+    font-style: normal;
+    font-weight: 400;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Muller';
+  }
+
+body{
+    background: #E5E5E5;
+    margin: 0;
+}
+
+header{
+    margin-top: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%; 
+}
+
+.header-left{
+    display: flex;
+    align-items: center;
+}
+
+.header-right{
+    display: flex;
+    align-items: center;
+}
+
+.phone-nomer{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    color: #666666;
+    padding-left: 34px;
+    
+}
+
+.kabinet-icon{
+    background-image: url('/img/keyboard_tab.svg');
+    background-position: left center;
+    width: 21px;
+    height: 12px;
+    margin-right: 7px;
+    background-repeat: no-repeat;
+    color: #CC9933;
+    transform: translateY(-2px);
+}
+
+.kabinet-link{
+    color: #CC9933;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+}
