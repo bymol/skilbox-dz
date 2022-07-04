@@ -43,12 +43,18 @@ body{
     margin: 0;
 }
 
-header{
-    margin-top: 30px;
-}
-
 a{
     text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header{
+    margin-top: 30px;
 }
 
 .container{
@@ -56,7 +62,6 @@ a{
     margin-right: auto;
     margin-left: auto;
 }
-
 
 .header-container{
     display: flex;
@@ -81,7 +86,6 @@ a{
     line-height: 20px;
     color: #666666;
     padding-left: 34px;
-    
 }
 
 .kabinet-icon{
@@ -101,3 +105,48 @@ a{
     line-height: 16px;
     font-weight: 400;
 }
+
+.nav{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFFFFF;
+    height: 70px;
+}
+
+.nav-list{
+    display: flex;
+    margin: auto; 
+}
+
+.nav-item{
+    margin-left: 45px;
+}
+
+.nav-item:last-of-type{
+    margin-right: 114px; 
+}
+
+.nav-link{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #666666;
+}
+
+.btn-head{
+    padding: 13px 20px;
+    border: 1px solid #CC9933;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #CC9933;
+    
+}
+
+.btn-head {
+    margin-right: 40px;
+}
+
