@@ -53,6 +53,7 @@ ul {
     list-style: none;
 }
 
+/*header*/
 header{
     margin-top: 30px;
 }
@@ -88,18 +89,10 @@ header{
     padding-left: 34px;
 }
 
-.kabinet-icon{
-    background-image: url('../img/keyboard_tab.svg');
-    background-position: left center;
-    width: 21px;
-    height: 12px;
-    margin-right: 7px;
-    background-repeat: no-repeat;
-    color: #CC9933;
-    transform: translateY(-2px);
-}
-
 .kabinet-link{
+    background: url('../img/keyboard_tab.svg') no-repeat 0;
+    background-position: bottom -2px left 0px;
+    padding-left: 27px;
     color: #CC9933;
     font-size: 16px;
     line-height: 16px;
@@ -110,9 +103,9 @@ header{
     margin-top: 30px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     background: #FFFFFF;
     height: 70px;
+    border-radius: 15px;
 }
 
 .nav-list{
@@ -150,3 +143,102 @@ header{
     margin-right: 40px;
 }
 
+/*spec*/
+.section-spec{
+    margin-top: 70px;
+}
+
+.section-spec h1{
+    margin-left: 40px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    color: #333333;
+}
+
+.spec-cards{
+    display: flex;
+    justify-content: center;
+}
+
+.section-spec-left{
+    flex-direction: column;
+}
+
+.spec-left{
+    min-width: 573px;
+    min-height: 258px;
+    margin-right: 24px;
+    border-radius: 15px;
+}
+
+.spec-left:not(:last-child){
+    margin-bottom: 24px;
+}
+
+.spec-left-1{
+    background-image: url('../img/spec-1.jpg');
+}
+
+.spec-left-2{
+    background-image: url('../img/spec-2.jpg');
+}
+
+.spec-right {
+    min-height: 540px;
+    min-width: 573px;
+    border-radius: 15px;
+    background-image: url('../img/spec-3.jpg');
+}
+
+.spec-title{
+    padding-top: 40px;
+    margin-left: 45px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.spec-title-2{
+    padding-top: 212px;
+    margin-left: 45px;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+.spec-price{
+    padding-top: 15px;
+    margin-left: 45px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.spec-price-2{
+    padding-top: 15px;
+    margin-left: 45px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.spec-link-block{
+    margin-top: 47px;
+    margin-left: 45px;
+}
+
+.spec-link{
+    background: url(../img/spec-link-icon.svg) no-repeat 100%;
+    padding-right: 14px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #F0BF5F;
+}
